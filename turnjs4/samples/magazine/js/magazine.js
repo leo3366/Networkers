@@ -3,14 +3,6 @@ var cambio = 1;
 $(document).on('click','.swiper-slide', function(){
     cambio = $(this).attr('data-number');
     console.log(cambio);
-
-
-	var element = $('<div />', {});
-	// if (book.turn('addPage', element, page)) {
-	// 	element.html('<div class="gradient"></div><div class="loader"></div>');
-	// 	loadPage(page, element);
-	// }
-	loadPage(1, element);
 });
 
 function addPage(page, book) {
@@ -34,7 +26,6 @@ function addPage(page, book) {
 }
 
 function loadPage(page, pageElement) {
-
 
 	// Create an image element
 
@@ -61,8 +52,7 @@ function loadPage(page, pageElement) {
 	// Load the page
 
     console.log("pageeee: "+page);
-	img.attr('src', 'revista/revista'+cambio+'/' +  page + '.jpg');
-	console.log( 'revista/revista'+cambio+'/' +  page + '.jpg');
+	img.attr('src', 'revista/revista1/' +  page + '.jpg');
 
 	loadRegions(page, pageElement);
 
