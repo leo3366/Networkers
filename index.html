@@ -120,15 +120,15 @@
             </div>
         </div>
         
-        <div class="row">
-            <div class="col-md-8 offset-md-2 text-center contactwithus">
-                <h3>Otras revistas</h3>
-            </div>
-        </div>
+
          <!-- Item4 Slider-->
         <section class="ptb ptb-sm-80">
             <div class="container">
-                <h4 class="text-center">Item4 Slider</h4>
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center contactwithus">
+                        <h3>Otras revistas</h3>
+                    </div>
+                </div>
                 <div class="spacer-30"></div>
                 <div class="row">
                     <div class="owl-carousel item4-carousel nf-carousel-theme o-flow-hidden">
@@ -446,7 +446,6 @@
     <script src="jquery.scrollstop.js"></script>
 
     <script src="js/swiper.min.js"></script>
-    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="./min_version/pdf.min.js"></script>
     <script type="text/javascript" src="./min_version/jquery.ipages.min.js"></script>
     <script type="text/javascript">
@@ -471,6 +470,7 @@
                 pdfBookSizeFromDocument: true,
 
                 zoom:1,
+                mouseWheelZoom: false,
 
                 toolbarControls: [
                     {type:'share',        active:true},
@@ -552,7 +552,10 @@
         
 
 </script>
-        <script src="js/theme.js" type="text/javascript"></script>
+
+    
+    
+    <script src="js/theme.js" type="text/javascript"></script>
 
 </body>
 </html>
