@@ -1,19 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/index.html" line="177" mnemonic="7" />
+    <bookmark url="file://$PROJECT_DIR$/index.html" line="147" mnemonic="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c559cef-4bf7-4320-8f05-cac0aa55cd99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/revista/revista1/magazine.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/revista/revista2/magazine.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/revista/revista3/magazine.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/revista/revista3/portada.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revista/revista1/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/revista/revista1/portada.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revista/revista2/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/revista/revista2/portada.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/echo-hereweare.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/track1.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/video1.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/video1.ogv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/video1.webm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/video1_poster.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista1/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/revista/revista2/9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/extras/jGestures-license.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/extras/jgestures.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/extras/jquery-ui-1.8.20.custom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/extras/jquery.min.1.7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/extras/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/extras/modernizr.2.5.3.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/compress.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/hash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/scissor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/scissor.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/turn.html4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/turn.html4.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/turn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/turn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/lib/zoom.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/css/jquery.ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/css/jquery.ui.html4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/css/magazine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/js/magazine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/pics/arrows.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/pics/loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/pics/zoom-icons-editable.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/pics/zoom-icons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/pics/zoom.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/turnjs4/samples/magazine/slider.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,18 +85,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollFromSource" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="530" column="11" lean-forward="true" selection-start-line="530" selection-start-column="11" selection-end-line="530" selection-end-column="11" />
+            <state relative-caret-position="168">
+              <caret line="125" column="43" lean-forward="true" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,15 +109,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="106">
               <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/turnjs4/samples/magazine/js/magazine.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -79,10 +133,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="108" />
-    <option name="y" value="124" />
-    <option name="width" value="817" />
-    <option name="height" value="735" />
+    <option name="x" value="279" />
+    <option name="y" value="53" />
+    <option name="width" value="1518" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,13 +159,12 @@
             <path>
               <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
               <item name="Networkers" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
               <item name="Networkers" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="swiper.js" type="620a8d5e:NestingTreeNode" />
+              <item name="revista" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,6 +192,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Networkers/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -151,29 +214,38 @@
       <updated>1561014893253</updated>
       <workItem from="1561014897112" duration="8818000" />
     </task>
+    <task id="LOCAL-00001" summary="Nuevo slider adaptado para cambiar el pdf que se carga al inicio.">
+      <created>1561057823359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561057823360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12218000" />
+    <option name="totallyTimeSpent" value="15937000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1924" height="1034" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15955766" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16134185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39289677" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.21420644" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.292868" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.2284345" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -222,6 +294,13 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Nuevo slider adaptado para cambiar el pdf que se carga al inicio." />
+    <option name="LAST_COMMIT_MESSAGE" value="Nuevo slider adaptado para cambiar el pdf que se carga al inicio." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Networkers$index_html.dat" NAME="index.html Coverage Results" MODIFIED="1561064581059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="WipCoverageRunner" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/turnjs4/samples/magazine/js/magazine.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -233,15 +312,17 @@
     <entry file="file://$PROJECT_DIR$/turnjs4/samples/magazine/css/magazine.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="530" column="11" lean-forward="true" selection-start-line="530" selection-start-column="11" selection-end-line="530" selection-end-column="11" />
+        <state relative-caret-position="168">
+          <caret line="125" column="43" lean-forward="true" selection-start-line="125" selection-start-column="43" selection-end-line="125" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
