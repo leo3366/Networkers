@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Revista Networkers</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="nileforest">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <!-- Favicone Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <!-- Preloader -->
+    <section id="preloader">
+        <div class="loader" id="loader">
+            <div class="loader-img"></div>
+        </div>
+    </section>
+    <!-- End Preloader -->
+
+
+    <!-- Site Wraper -->
+    <div class="wrapper">
+
+        <!-- Header ("header--dark", "header-transparent", "header--sticky")-->
+        <header id="header" class="header header-transparent header--sticky">
+            <!-- Nav Bar -->
+            <nav id="navigation" class="header-nav colorbackground">
+                <div class="container">
+                    <div class="row d-flex flex-md-row align-items-center">
+                        <div class="logo mr-auto">
+                            <!--logo-->
+                            <a href="index.html" style="height: 110px;">
+                                <img class="logo-dark logoNetworker" src="img/logo.png" alt="Revista Networkers"/>
+                                <img class="logo-light logoNetworker" src="img/logo.png" alt="Revista Networkers" />
+                            </a>
+                            <!--End logo-->
+                        </div>
+
+                        <div class="nav-menu ml-auto">
+                            <ul class="menus">
+                                <li class="nav-menu-item">
+                                    <a href="index.html" class="d-flex align-items-center justify-content-center">Inicio</a>
+                                </li>
+                                <li class="nav-menu-item">
+                                    <a href="#" class="d-flex align-items-center justify-content-center">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Nav Bar -->
+        </header>
+        <!-- End Header -->
+
+        <section class="ptb ptb-sm-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 offset-md-2 text-center contactwithus">
+                        <h3>Contacta con nosotros</h3>
+                    </div>
+                </div>
+                <div class="spacer-75"></div>
+                <div class="row">
+                    <div class="col-md-5 contact">
+                        <div class="contact-box-left mb-45">
+                            <div class="contact-icon-left"><i class="ion ion-ios-location"></i></div>
+                            <h6>Dirección</h6>
+                            <p>
+                                Calle, Nombre de la calle, número x.
+                                Las Palmas de Gran Canaria
+                            </p>
+                            <p><i class="fa fa-phone left"></i>+34 000 000 000</p>
+                            <a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>correo@correo.com</a><br />
+                        </div>
+                        <div class="contact-box-left mb-45">
+                            <h6>Síguenos en redes</h6>
+                            <ul class="list-none social">
+                                <li><a href="https://www.facebook.com/Revistanetworkers-405799510237186/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-1">
+                        <!-- Contact FORM -->
+                        <form class="contact-form" id="contact" role="form">
+
+                            <!-- IF MAIL SENT SUCCESSFULLY -->
+                            <h6 class="successContent">
+                                <i class="fa fa-check left" style="color: #5cb45d;"></i>Su mensaje se ha enviado correctamente.
+                            </h6>
+                            <!-- END IF MAIL SENT SUCCESSFULLY -->
+
+                            <!-- MAIL SENDING UNSUCCESSFULL -->
+                            <h6 class="errorContent">
+                                <i class="fa fa-exclamation-circle left" style="color: #e1534f;"></i>Ha habido un problema con el formulario. Inténtelo de nuevo.
+                            </h6>
+                            <!-- END MAIL SENDING UNSUCCESSFULL -->
+
+                            <div class="form-field-wrapper">
+                                <label>Nombre</label>
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Introduczca un nombre" required>
+                            </div>
+                            <div class="form-field-wrapper">
+                                <label>Correo electrónico</label>
+                                <input class="input-sm form-full" id="form-email" type="email" name="form-email" placeholder="Introduzca un email" required>
+                            </div>
+                            <div class="form-field-wrapper">
+                                <label>Asunto</label>
+                                <input class="input-sm form-full" id="form-subject" type="text" name="form-subject" placeholder="Introduzca un asunto">
+                            </div>
+                            <div class="form-field-wrapper">
+                                <label>Mensaje</label>
+                                <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="Escriba aquí su mensaje..." required></textarea>
+                            </div>
+
+                            <button class="btn btn-md btn-black form-full" type="submit" id="form-submit" name="submit">Enviar mensaje</button>
+                        </form>
+                        <!-- END Contact FORM -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+
+        <!-- End CONTENT ------------------------------------------------------------------------------>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="ptb-60">
+                <div class="container">
+                    <!--Footer Info -->
+                    <div class="row footer-info">
+                        <div class="col-lg-3 col-md-12 col-sm-12">
+                            <div class="footer-block">
+                                <a class="footer-logo mb-25" href="index.html">
+                                    <img src="img/logo.png" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                            <div class="footer-block">
+                                <h6 class="link-title">Networkers</h6>
+                                <ul class="link">
+                                    <li><a href="./index.html">Inicio</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                            <div class="footer-block">
+                                <h6 class="link-title">Términos legales</h6>
+                                <ul class="link">
+                                    <li><a href="#">Términos de uso</a></li>
+                                    <li><a href="#">Política de privacidad</a></li>
+                                    <li><a href="#">Política de cookies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="footer-block">
+                                <h6 class="link-title">Contacto</h6>
+                                <p>Calle de la empresa, numero X. Las Palmas de Gran Canaria</p>
+                                <ul class="link">
+                                    <li><a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>correo@correo.es</a></li>
+                                </ul>
+                                <ul class=link-title>
+                                    <p><i class="fa fa-phone left"></i>+34 000 000 000 / 000000000</p>
+                                </ul>
+                                <ul class="social">
+                                    <li><a target="_blank" href="https://www.facebook.com/Revistanetworkers-405799510237186/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Footer Info -->
+                </div>
+            </div>
+            <hr />
+
+            <!-- Copyright Bar -->
+            <section class="copyright ptb-60 bg-dark">
+                <div class="container text-center">
+                    All Rights Reserved. <strong>Adrian RM</strong>
+                </div>
+            </section>
+            <!-- End Copyright Bar -->
+
+        </footer>
+        <!-- END FOOTER -->
+
+        <!-- Scroll Top -->
+        <a class="scroll-top">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+        <!-- End Scroll Top -->
+
+    </div>
+    <!-- Site Wraper End -->
+
+
+    <!-- JS -->
+
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="js/plugin/wow.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+    <script src="js/plugin/mediaelement-and-player.min.js"></script>
+    <script src="js/plugin/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="js/theme.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+    <script src="js/contact-form.js" type="text/javascript"></script>
+</body>
+</html>

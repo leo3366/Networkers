@@ -1,0 +1,802 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Revista Networkers</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="nileforest">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, shrink-to-fit=no">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+    <!-- Favicone Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/ionicons.css" rel="stylesheet" type="text/css" />
+    <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
+    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+<!--    <script type="text/javascript" src="./turnjs4/extras/jquery.min.1.7.js"></script>-->
+<!--	<script type="text/javascript" src="./turnjs4/extras/modernizr.2.5.3.min.js"></script>-->
+<!--    <script type="text/javascript" src="./turnjs4/extras/jquery.mousewheel.min.js"></script>-->
+<!--	<script type="text/javascript" src="./turnjs4/lib/hash.js"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./min_version/ipages.min.css">
+
+    <style>
+        .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            width: 400px;
+            height: 500px;
+
+        }
+    
+    </style>
+    
+</head>
+
+<body style="padding:0">
+
+    <!-- Preloader -->
+    <section id="preloader">
+        <div class="loader" id="loader">
+            <div class="loader-img"></div>
+        </div>
+    </section>
+    <!-- End Preloader -->
+
+
+    <!-- Site Wraper -->
+    <div class="wrapper">
+
+        <!-- Header ("header--dark", "header-transparent", "header--sticky")-->
+        <header id="header" class="header header-transparent header--sticky">
+            <!-- Nav Bar -->
+            <nav id="navigation" class="header-nav colorbackground">
+                <div class="container">
+                    <div class="row d-flex flex-md-row align-items-center">
+                        <div class="logo mr-auto">
+                            <!--logo-->
+                            <a href="index.html" style="height: 120px;">
+                                <img class="logo-dark logoNetworker" src="img/logo.png" alt="Revista Networkers" />
+                                <img class="logo-light logoNetworker" src="img/logo.png" alt="Revista Networkers" />
+                            </a>
+                            <!--End logo-->
+                        </div>
+
+                        <div class="nav-menu ml-auto">
+                            <ul class="menus">
+                                <li class="nav-menu-item">
+                                    <a href="#" class="d-flex align-items-center justify-content-center">Inicio</a>
+                                </li>
+                                <li class="nav-menu-item">
+                                    <a href="contact.html" class="d-flex align-items-center justify-content-center">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                </div>
+            </nav>
+            <!-- End Nav Bar -->
+        </header>
+        <!-- End Header -->
+
+
+        <!-- CONTENT --------------------------------------------------------------------------------->
+        <!-- Intro -->
+        <div id="flipbook"  style="height:600px; position:relative; top:120px;">
+
+        </div>
+
+
+
+        <div class="container-fluid" style="padding-top: 30px;">
+            <div class="mt-3" id="canvas">
+                <div id="modal" class="magazine-viewport">
+                    <div class="container ">
+                        <div class="magazine">
+
+                            <!-- Next button -->
+                           <div ignore="1" class="next-button"></div>
+                            <!-- Previous button -->
+
+                            <div ignore="1" class="previous-button"></div>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Thumbnails -->
+<!--
+                    <div class="thumbnails">
+                        <div>
+                            <ul>
+                                <li class="i">
+                                    <img src="./revista/revista2/1.jpg" width="76" height="100" class="page-1">
+                                    <span>1</span>
+                                </li>
+                                <li class="d">
+                                    <img src="pages/2-thumb.jpg" width="76" height="100" class="page-2">
+                                    <img src="pages/3-thumb.jpg" width="76" height="100" class="page-3">
+                                    <span>2-3</span>
+                                </li>
+                                <li class="d">
+                                    <img src="pages/4-thumb.jpg" width="76" height="100" class="page-4">
+                                    <img src="pages/5-thumb.jpg" width="76" height="100" class="page-5">
+                                    <span>4-5</span>
+                                </li>
+                                <li class="d">
+                                    <img src="pages/6-thumb.jpg" width="76" height="100" class="page-6">
+                                    <img src="pages/7-thumb.jpg" width="76" height="100" class="page-7">
+                                    <span>6-7</span>
+                                </li>
+                                <li class="d">
+                                    <img src="pages/8-thumb.jpg" width="76" height="100" class="page-8">
+                                    <img src="pages/9-thumb.jpg" width="76" height="100" class="page-9">
+                                    <span>8-9</span>
+                                </li>
+                                <li class="d">
+                                    <img src="pages/10-thumb.jpg" width="76" height="100" class="page-10">
+                                    <img src="pages/11-thumb.jpg" width="76" height="100" class="page-11">
+                                    <span>10-11</span>
+                                </li>
+                                <li class="i">
+                                    <img src="pages/12-thumb.jpg" width="76" height="100" class="page-12">
+                                    <span>12</span>
+                                </li>
+                                <li class="i">
+                                    <img src="pages/13-thumb.jpg" width="76" height="100" class="page-12">
+                                    <span>13</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+-->
+            </div>
+        </div>
+        
+        
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide" data-number="1" style="background-image:url(./revista/revista2/1.jpg);"></div>
+                <div class="swiper-slide" data-number="2" style="background-image:url(./revista/revista2/2.jpg);"></div>
+                <div class="swiper-slide" data-number="3" style="background-image:url(./revista/revista2/3.jpg);"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+        <!-- END CONTENT ---------------------------------------------------------------------------->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="ptb-60">
+                <div class="container">
+                    <!--Footer Info -->
+                    <div class="row footer-info">
+                        <div class="col-lg-3 col-md-12 col-sm-12">
+                            <div class="footer-block">
+                                <a class="footer-logo mb-25" href="index.html">
+                                    <img src="img/logo.png" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                            <div class="footer-block">
+                                <h6 class="link-title">Networkers</h6>
+                                <ul class="link">
+                                    <li><a href="./index.html">Inicio</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-4">
+                            <div class="footer-block">
+                                <h6 class="link-title">Términos legales</h6>
+                                <ul class="link">
+                                    <li><a href="#">Términos de uso</a></li>
+                                    <li><a href="#">Política de privacidad</a></li>
+                                    <li><a href="#">Política de cookies</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12">
+                            <div class="footer-block">
+                                <h6 class="link-title">Contacto</h6>
+                                <p>Calle de la empresa, numero X. Las Palmas de Gran Canaria</p>
+                                <ul class="link">
+                                    <li><a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>correo@correo.es</a></li>
+                                </ul>
+                                <ul class=link-title>
+                                    <p><i class="fa fa-phone left"></i>+34 000 000 000 / 000000000</p>
+                                </ul>
+                                <ul class="social">
+                                    <li><a target="_blank" href="https://www.facebook.com/Revistanetworkers-405799510237186/"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Footer Info -->
+                </div>
+            </div>
+            <hr />
+
+            <!-- Copyright Bar -->
+            <section class="copyright ptb-60 bg-dark">
+                <div class="container text-center">
+                         All Rights Reserved. <strong>Adrian RM</strong>
+                </div>
+            </section>
+            <!-- End Copyright Bar -->
+
+        </footer>
+        <!-- END FOOTER -->
+
+        <!-- Scroll Top -->
+        <a class="scroll-top">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+        <!-- End Scroll Top -->
+
+    </div>
+    <!-- Site Wraper End -->
+
+
+    <!-- JS -->
+    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
+    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="js/plugin/wow.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+    <script src="js/plugin/mediaelement-and-player.min.js"></script>
+    <script src="js/theme.js" type="text/javascript"></script>
+    <!--Script de la revista-->
+    <script src="jquery.scrollstop.js"></script>
+
+    <script src="js/swiper.min.js"></script>
+    <script type="text/javascript" src="./assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="./min_version/pdf.min.js"></script>
+    <script type="text/javascript" src="./min_version/jquery.ipages.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var options = {
+                responsive:true,
+                autoFit:true,
+                autoHeight: false,
+
+                padding:{
+                    top:30,
+                    left:10,
+                    right:10,
+                    bottom:70
+                },
+
+                pdfUrl: 'assets/pdf/magazine.pdf',
+                pdfAutoCreatePages: true,
+                pdfBookSizeFromDocument: true,
+
+                zoom:1,
+
+                toolbarControls: [
+                    {type:'share',        active:true},
+                    {type:'sound',        active:true, optional: false},
+                    {type:'outline',      active:true},
+                    {type:'thumbnails',   active:false},
+                    {type:'gotofirst',    active:true},
+                    {type:'prev',         active:true},
+                    {type:'pagenumber',   active:true},
+                    {type:'next',         active:true},
+                    {type:'gotolast',     active:true},
+                    {type:'zoom-in',      active:false},
+                    {type:'zoom-out',     active:false},
+                    {type:'zoom-default', active:false},
+                    {type:'optional',     active:false},
+                    {type:'download',     active:true, optional: false},
+                    {type:'fullscreen',   active:true, optional: false},
+                ],
+
+                bookmarks: [
+                    {text:'Profile List', link:'', folded: false, bookmarks:[
+                            {text:'Avirtum', link:'http://avirtum.com', target:'blank'},
+                            {text:'Twitter', link:'https://twitter.com/avirtumcom', target:'blank'},
+                            {text:'YouTube', link:'https://www.youtube.com/channel/UCvENmD-ml85Lie9KFjbusnw', target:'blank'},
+                            {text:'CodeCanyon', link:'https://codecanyon.net/user/avirtum/portfolio?ref=avirtum', target:'blank'}, // target: self, blank, page
+                        ]},
+                    {text:'The page 1 from begin', link:'1'},
+                    {text:'The page 2 from begin', link:'2'},
+                    {text:'The page 3 from begin', link:'2'},
+                    {text:'The page 1 from end', link:'-1'},
+                    {text:'The page 2 from end', link:'-2'},
+                    {text:'The page 3 from end', link:'-3'}
+                ],
+            };
+
+            $('#flipbook').ipages(options);
+
+            // Events
+            $('#flipbook').on('ipages:ready', function(e, plugin) {
+                console.log('event:ready');
+            });
+
+            $('#flipbook').on('ipages:showpage', function(e, plugin, page) {
+                console.log('event:showpage [' + page + ']');
+            });
+
+            $('#flipbook').on('ipages:hidepage', function(e, plugin, page) {
+                console.log('event:hidepage [' + page + ']');
+            });
+        });
+
+
+    //     $(function() {
+    //
+    //         var canvas = $('#canvas'),
+    //             height = canvas.height(),
+    //             scrollHeight = canvas.get(0).scrollHeight;
+    //
+    //         canvas.bind('mousewheel', function(e, d) {
+    //             if((this.scrollTop === (scrollHeight - height) && d < 0) || (this.scrollTop === 0 && d > 0)) {
+    //                 e.preventDefault();
+    //             }
+    //         });
+    //
+    //     });
+	// var viewportWidth = 922;
+	// var viewportHeight = 600;
+	// var pages="double";
+// if($(window).width()<=600){
+// 	var viewportWidth = $(window).width();
+// 	var viewportHeight = $(window).height();
+// 	var pages="single";
+// 	console.log(pages+" "+ viewportHeight + " " + viewportWidth);
+// }
+// function loadApp() {
+//
+//  	$('#canvas').fadeIn(1000);
+//
+//  	var flipbook = $('.magazine');
+//
+//  	// Check if the CSS was already loaded
+//
+// 	if (flipbook.width()==0 || flipbook.height()==0) {
+// 		setTimeout(loadApp, 10);
+// 		return;
+// 	}
+//
+// 	// Create the flipbook
+// 	console.log(viewportWidth+" " + viewportHeight);
+// 	flipbook.turn({
+//
+// 			// Magazine width
+//
+// 			width: viewportWidth,
+//
+// 			// Magazine height
+//
+// 			height: viewportHeight,
+//
+// 			// Duration in millisecond
+//
+// 			duration: 1000,
+//
+// 			// Hardware acceleration
+//
+// 			acceleration: !isChrome(),
+//
+// 			// Enables gradients
+//
+// 			gradients: true,
+//
+// 			// Auto center this flipbook
+//
+// 			autoCenter: true,
+//
+// 			// Elevation from the edge of the flipbook when turning a page
+//
+// 			elevation: 50,
+// 			display:pages,
+// 			// The number of pages
+// 			pages: 13,
+// 			// Events
+//
+// 			when: {
+// 				turning: function(event, page, view) {
+//
+// 					var book = $(this),
+// 					currentPage = book.turn('page'),
+// 					pages = book.turn('pages');
+//
+// 					// Update the current URI
+//
+// 					Hash.go('page/' + page).update();
+//
+// 					// Show and hide navigation buttons
+//
+// 					disableControls(page);
+// 					$('.thumbnails .page-'+currentPage).
+// 						parent().
+// 						removeClass('current');
+// 					$('.thumbnails .page-'+page).
+// 						parent().
+// 						addClass('current');
+//
+//
+//
+// 				},
+//
+// 				turned: function(event, page, view) {
+//
+// 					disableControls(page);
+//
+// 					$(this).turn('center');
+//
+// 					if (page==1) {
+// 						$(this).turn('peel', 'br');
+// 					}
+//
+// 				},
+//
+// 				missing: function (event, pages) {
+//
+// 					// Add pages that aren't in the magazine
+//
+// 					for (var i = 0; i < pages.length; i++)
+// 						addPage(pages[i], $(this));
+//
+// 				}
+// 			}
+//
+// 	});
+//
+// 	// Zoom.js
+//
+// 	$('.magazine-viewport').zoom({
+// 		flipbook: $('.magazine'),
+//
+// 		max: function() {
+//
+// 			return largeMagazineWidth()/$('.magazine').width();
+//
+// 		},
+//
+// 		when: {
+//
+// 			swipeLeft: function() {
+//
+// 				$(this).zoom('flipbook').turn('next');
+//
+// 			},
+//
+// 			swipeRight: function() {
+//
+// 				$(this).zoom('flipbook').turn('previous');
+//
+// 			},
+//
+// 			resize: function(event, scale, page, pageElement) {
+//
+// 				if (scale==1)
+// 					loadSmallPage(page, pageElement);
+// 				else
+// 					loadLargePage(page, pageElement);
+//
+// 			},
+//
+// 			zoomIn: function () {
+//
+// 				$('.thumbnails').hide();
+// 				$('.made').hide();
+// 				$('.magazine').removeClass('animated').addClass('zoom-in');
+// 				$('.zoom-icon').removeClass('zoom-icon-in').addClass('zoom-icon-out');
+//
+// 				if (!window.escTip && !$.isTouch) {
+// 					escTip = true;
+//
+// 					$('<div />', {'class': 'exit-message'}).
+// 						html('<div>Press ESC to exit</div>').
+// 							appendTo($('body')).
+// 							delay(2000).
+// 							animate({opacity:0}, 500, function() {
+// 								$(this).remove();
+// 							});
+// 				}
+// 			},
+//
+// 			zoomOut: function () {
+//
+// 				$('.exit-message').hide();
+// 				$('.thumbnails').fadeIn();
+// 				$('.made').fadeIn();
+// 				$('.zoom-icon').removeClass('zoom-icon-out').addClass('zoom-icon-in');
+//
+// 				setTimeout(function(){
+// 					$('.magazine').addClass('animated').removeClass('zoom-in');
+// 					resizeViewport();
+// 				}, 0);
+//
+// 			}
+// 		}
+// 	});
+//
+// 	// Zoom event
+//
+//
+//
+// 	// Using arrow keys to turn the page
+//
+// 	$(document).keydown(function(e){
+//
+// 		var previous = 37, next = 39, esc = 27;
+//
+// 		switch (e.keyCode) {
+// 			case previous:
+//
+// 				// left arrow
+// 				$('.magazine').turn('previous');
+// 				e.preventDefault();
+//
+// 			break;
+// 			case next:
+//
+// 				//right arrow
+// 				$('.magazine').turn('next');
+// 				e.preventDefault();
+//
+// 			break;
+// 			case esc:
+//
+// 				$('.magazine-viewport').zoom('zoomOut');
+// 				e.preventDefault();
+//
+// 			break;
+// 		}
+// 	});
+//
+// 	// URIs - Format #/page/1
+//
+// 	Hash.on('^page\/([0-9]*)$', {
+// 		yep: function(path, parts) {
+// 			var page = parts[1];
+//
+// 			if (page!==undefined) {
+// 				if ($('.magazine').turn('is'))
+// 					$('.magazine').turn('page', page);
+// 			}
+//
+// 		},
+// 		nop: function(path) {
+//
+// 			if ($('.magazine').turn('is'))
+// 				$('.magazine').turn('page', 1);
+// 		}
+// 	});
+//
+//
+// 	$(window).resize(function() {
+// 		resizeViewport();
+// 	}).bind('orientationchange', function() {
+// 		resizeViewport();
+// 	});
+//
+// 	// Events for thumbnails
+//
+// 	$('.thumbnails').click(function(event) {
+//
+// 		var page;
+//
+// 		if (event.target && (page=/page-([0-9]+)/.exec($(event.target).attr('class'))) ) {
+//
+// 			$('.magazine').turn('page', page[1]);
+// 		}
+// 	});
+//
+// 	$('.thumbnails li').
+// 		bind($.mouseEvents.over, function() {
+//
+// 			$(this).addClass('thumb-hover');
+//
+// 		}).bind($.mouseEvents.out, function() {
+//
+// 			$(this).removeClass('thumb-hover');
+//
+// 		});
+//
+// 	if ($.isTouch) {
+//
+// 		$('.thumbnails').
+// 			addClass('thumbanils-touch').
+// 			bind($.mouseEvents.move, function(event) {
+// 				event.preventDefault();
+// 			});
+//
+// 	} else {
+//
+// 		$('.thumbnails ul').mouseover(function() {
+//
+// 			$('.thumbnails').addClass('thumbnails-hover');
+//
+// 		}).mousedown(function() {
+//
+// 			return false;
+//
+// 		}).mouseout(function() {
+//
+// 			$('.thumbnails').removeClass('thumbnails-hover');
+//
+// 		});
+//
+// 	}
+//
+//
+// 	// Events for the next button
+//
+// 	$('.next-button').bind($.mouseEvents.over, function() {
+//
+// 		$(this).addClass('next-button-hover');
+//
+// 	}).bind($.mouseEvents.out, function() {
+//
+// 		$(this).removeClass('next-button-hover');
+//
+// 	}).bind($.mouseEvents.down, function() {
+//
+// 		$(this).addClass('next-button-down');
+//
+// 	}).bind($.mouseEvents.up, function() {
+//
+// 		$(this).removeClass('next-button-down');
+//
+// 	}).click(function() {
+//
+// 		$('.magazine').turn('next');
+//
+// 	});
+//
+// 	// Events for the next button
+//
+// 	$('.previous-button').bind($.mouseEvents.over, function() {
+//
+// 		$(this).addClass('previous-button-hover');
+//
+// 	}).bind($.mouseEvents.out, function() {
+//
+// 		$(this).removeClass('previous-button-hover');
+//
+// 	}).bind($.mouseEvents.down, function() {
+//
+// 		$(this).addClass('previous-button-down');
+//
+// 	}).bind($.mouseEvents.up, function() {
+//
+// 		$(this).removeClass('previous-button-down');
+//
+// 	}).click(function() {
+//
+// 		$('.magazine').turn('previous');
+//
+// 	});
+//
+//
+// 	resizeViewport();
+//
+// 	$('.magazine').addClass('animated');
+//
+// }
+
+// Zoom icon
+
+//  $('.zoom-icon').bind('mouseover', function() {
+//
+//  	if ($(this).hasClass('zoom-icon-in'))
+//  		$(this).addClass('zoom-icon-in-hover');
+//
+//  	if ($(this).hasClass('zoom-icon-out'))
+//  		$(this).addClass('zoom-icon-out-hover');
+//
+//  }).bind('mouseout', function() {
+//
+//  	 if ($(this).hasClass('zoom-icon-in'))
+//  		$(this).removeClass('zoom-icon-in-hover');
+//
+//  	if ($(this).hasClass('zoom-icon-out'))
+//  		$(this).removeClass('zoom-icon-out-hover');
+//
+//  }).bind('click', function() {
+//
+//  	if ($(this).hasClass('zoom-icon-in'))
+//  		$('.magazine-viewport').zoom('zoomIn');
+//  	else if ($(this).hasClass('zoom-icon-out'))
+// 		$('.magazine-viewport').zoom('zoomOut');
+//
+//  });
+//
+//  $('#canvas').hide();
+//
+//         $(document).on('click','.page-wrapper',function () {
+//             var lado=$(this).attr('page');
+//             if(lado%2!=0 && $(window).width()>600){
+//                 $('.magazine').turn('next');
+//             }else if(lado%2==0  && $(window).width()>600){
+//                 $('.magazine').turn('previous');
+//             }
+//         });
+//
+//         $(document).on('click','.magazine .shadow',function () {
+//         if($(window).width()<600){
+//             $('.magazine').turn('previous');
+//         }
+//         });
+//
+//     $(document).on('click','.page-wrapper',function () {
+//         if($(window).width()<600){
+//             $('.magazine').turn('next');
+//         }
+//     });
+//
+//
+//
+// // Load the HTML4 version if there's not CSS transform
+//
+// yepnope({
+// 	test : Modernizr.csstransforms,
+//     yep: ['./turnjs4/lib/turn.js'],
+// 	nope: ['./turnjs4/lib/turn.html4.min.js'],
+// 	both: ['./turnjs4/lib/zoom.min.js', './turnjs4/samples/magazine/js/magazine.js', './turnjs4/samples/magazine/css/magazine.css'],
+// 	complete: loadApp
+// });
+
+     var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows : true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+
+        $(document).on('click','.swiper-slide', function() {
+            loadApp();
+        });
+
+</script>
+</body>
+</html>
