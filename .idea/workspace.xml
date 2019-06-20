@@ -16,18 +16,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="349" column="7" lean-forward="true" selection-start-line="349" selection-start-column="7" selection-end-line="349" selection-end-column="7" />
+            <state relative-caret-position="181">
+              <caret line="85" column="4" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#14126#17090#0" />
-                <element signature="e#23221#23811#0" />
-                <element signature="e#23874#23908#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/swiper.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -47,6 +57,7 @@
     <findStrings>
       <find>magazine.js</find>
       <find>load</find>
+      <find>swiper-bu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -56,15 +67,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/turnjs4/samples/magazine/js/magazine.js" />
+        <option value="$PROJECT_DIR$/css/swiper.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="179" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="82" />
+    <option name="y" value="-14" />
     <option name="width" value="1115" />
-    <option name="height" value="464" />
+    <option name="height" value="620" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -81,36 +93,18 @@
             <path>
               <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
               <item name="Networkers" type="462c0819:PsiDirectoryNode" />
-              <item name="turnjs4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Networkers" type="462c0819:PsiDirectoryNode" />
-              <item name="turnjs4" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Networkers" type="462c0819:PsiDirectoryNode" />
-              <item name="turnjs4" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="magazine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Networkers" type="462c0819:PsiDirectoryNode" />
-              <item name="turnjs4" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="magazine" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
               <item name="Networkers" type="462c0819:PsiDirectoryNode" />
-              <item name="turnjs4" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-              <item name="magazine" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Networkers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Networkers" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="swiper.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -149,12 +143,12 @@
       <option name="presentableId" value="Default" />
       <updated>1561014893253</updated>
       <workItem from="1561014897112" duration="8818000" />
-      <workItem from="1561029846522" duration="1914000" />
+      <workItem from="1561029846522" duration="6745000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10732000" />
+    <option name="totallyTimeSpent" value="15563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -186,27 +180,35 @@
     <entry file="file://$PROJECT_DIR$/turnjs4/samples/magazine/css/magazine.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/turnjs4/samples/magazine/js/magazine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/swiper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="154" column="26" lean-forward="true" selection-start-line="154" selection-start-column="26" selection-end-line="154" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="349" column="7" lean-forward="true" selection-start-line="349" selection-start-column="7" selection-end-line="349" selection-end-column="7" />
+        <state relative-caret-position="181">
+          <caret line="85" column="4" lean-forward="true" selection-start-line="85" selection-start-column="4" selection-end-line="85" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#14126#17090#0" />
-            <element signature="e#23221#23811#0" />
-            <element signature="e#23874#23908#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turnjs4/samples/magazine/js/magazine.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>

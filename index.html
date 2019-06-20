@@ -44,6 +44,45 @@
             height: 500px;
 
         }
+
+
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            position: absolute;
+            /*top: 50%;*/
+            /*width: 50%;*/
+            /*height: 44px;*/
+            margin-top: -22px;
+            z-index: 10;
+            cursor: pointer;
+            background-size: 27px 44px;
+            background-position: center;
+            background-repeat: no-repeat;
+
+            top: 10%;
+            width: 25%;
+            height: 460px;
+        }
+
+        .swiper-button-prev.swiper-button-disabled,
+        .swiper-button-next.swiper-button-disabled {
+            opacity: 0.35;
+            cursor: auto;
+            pointer-events: none;
+        }
+        .swiper-button-prev,
+        .swiper-container-rtl .swiper-button-next {
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+            left: 5%;
+            right: auto;
+        }
+        .swiper-button-next,
+        .swiper-container-rtl .swiper-button-prev {
+            background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+            right: 5%;
+            left: auto;
+        }
     
     </style>
     
@@ -132,7 +171,10 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide" data-number="1" style="background-image:url(./revista/revista1/portada.jpg);"></div>
                 <div class="swiper-slide" data-number="2" style="background-image:url(./revista/revista2/portada.jpg);"></div>
-                <div class="swiper-slide" data-number="3" style="background-image:url(./revista/revista3/portada.jpg);"></div>
+                <div class="swiper-slide" data-number="3" style="background-image:url(./revista/revista3/portada.jpg); z-index:999999" onclick="alert('click on 3')"></div>
+                <div class="swiper-slide" data-number="4" style="background-image:url(./revista/revista1/portada.jpg);"></div>
+                <div class="swiper-slide" data-number="5" style="background-image:url(./revista/revista2/portada.jpg);"></div>
+                <div class="swiper-slide" data-number="6" style="background-image:url(./revista/revista3/portada.jpg);"></div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
@@ -335,9 +377,17 @@
             },
             navigation: {
                 nextEl: '.swiper-button-next',
+                // nextEl:'.swiper-slide-shadow-right',
+                // prevEl:'.swiper-slide-shadow-left',
                 prevEl: '.swiper-button-prev',
             },
         });
+        // $('.swiper-slide').on('click', function (e) {
+        //     e.preventDefault();
+        //     // swiper.slideTo(revistaActual, 0);
+        //     // if($(this).hasClass('.swiper-slide-next'))
+        //         // alert("click");
+        // });
 
         $(document).on('click','.swiper-slide', function() {
             revistaActual = $(this).attr('data-number');
