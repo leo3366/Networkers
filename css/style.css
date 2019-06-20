@@ -208,9 +208,11 @@ p {
         color: #fff !important;
     }
 
+/*
     p.color, .color, a.color, h1.color, h2.color, h3.color, h4.color, h5.color, h6.color, li.link:hover, li.link a:hover, .color {
         color: #e6ae49 !important;
     }
+*/
 
 .gray {
     color: #888;
@@ -4051,6 +4053,7 @@ ul.project-detail-block, .project-detail-block ul {
     text-align: center;
 }
 
+/*
     .shop-item-info a:hover, .shop-item-info a:hover h5, .shop-item-info a:hover h6, .shop-item-name:hover {
         color: #e6ae49;
         transition: all 0.25s ease 0s;
@@ -4058,6 +4061,7 @@ ul.project-detail-block, .project-detail-block ul {
         -webkit-transition: all 0.25s ease 0s;
         -o-transition: all 0.25s ease 0s;
     }
+*/
 
     .shop-item-info .shop-item-name {
         margin-bottom: 5px;
