@@ -23,6 +23,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
@@ -34,6 +35,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0)
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
@@ -86,7 +88,8 @@
     z-index: 999
 }
 
-.ipgs-page, .ipgs-page .ipgs-image {
+.ipgs-page,
+.ipgs-page .ipgs-image {
     background-position: 50% 50%;
     background-size: 100% 100%
 }
@@ -188,7 +191,10 @@
     opacity: 1
 }
 
-.ipgs-page .ipgs-preloader, .ipgs-page .ipgs-shadow, .ipgs-theme-default.ipgs-ready .ipgs-book-loading, .ipgs-theme-default.ipgs-ready .ipgs-book-loading-info {
+.ipgs-page .ipgs-preloader,
+.ipgs-page .ipgs-shadow,
+.ipgs-theme-default.ipgs-ready .ipgs-book-loading,
+.ipgs-theme-default.ipgs-ready .ipgs-book-loading-info {
     pointer-events: none;
     opacity: 0
 }
@@ -272,7 +278,14 @@
     right: 5px
 }
 
-.ipgs-book-loading, .ipgs-book-loading-info, .ipgs-next-page, .ipgs-outline, .ipgs-prev-page, .ipgs-share, .ipgs-thumbnails, .ipgs-toolbar {
+.ipgs-book-loading,
+.ipgs-book-loading-info,
+.ipgs-next-page,
+.ipgs-outline,
+.ipgs-prev-page,
+.ipgs-share,
+.ipgs-thumbnails,
+.ipgs-toolbar {
     display: none
 }
 
@@ -292,7 +305,8 @@
     border: none
 }
 
-.ipgs-theme-default ::-webkit-scrollbar-thumb:active, .ipgs-theme-default ::-webkit-scrollbar-thumb:hover {
+.ipgs-theme-default ::-webkit-scrollbar-thumb:active,
+.ipgs-theme-default ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, .9)
 }
 
@@ -301,7 +315,8 @@
     border: none
 }
 
-.ipgs-theme-default ::-webkit-scrollbar-track:active, .ipgs-theme-default ::-webkit-scrollbar-track:hover {
+.ipgs-theme-default ::-webkit-scrollbar-track:active,
+.ipgs-theme-default ::-webkit-scrollbar-track:hover {
     background: rgba(0, 0, 0, .3)
 }
 
@@ -310,9 +325,10 @@
 }
 
 .ipgs-theme-default .ipgs-stage {
-    background-color: #fff;
-    /*-webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .5) inset;*/
-    /*box-shadow: 0 0 50px rgba(0, 0, 0, .5) inset*/
+/*
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, .5) inset;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5) inset
+*/
 }
 
 .ipgs-theme-default .ipgs-page {
@@ -351,7 +367,8 @@
     animation: ipgs-loading-animation 3s infinite linear
 }
 
-.ipgs-theme-default .ipgs-next-page, .ipgs-theme-default .ipgs-prev-page {
+.ipgs-theme-default .ipgs-next-page,
+.ipgs-theme-default .ipgs-prev-page {
     -webkit-transition: opacity .3s;
     transition: opacity .3s;
     position: absolute;
@@ -368,12 +385,14 @@
     z-index: 1
 }
 
-.ipgs-theme-default .ipgs-next-page.ipgs-active, .ipgs-theme-default .ipgs-prev-page.ipgs-active {
+.ipgs-theme-default .ipgs-next-page.ipgs-active,
+.ipgs-theme-default .ipgs-prev-page.ipgs-active {
     opacity: .5;
     pointer-events: auto
 }
 
-.ipgs-theme-default .ipgs-next-page:hover, .ipgs-theme-default .ipgs-prev-page:hover {
+.ipgs-theme-default .ipgs-next-page:hover,
+.ipgs-theme-default .ipgs-prev-page:hover {
     opacity: .8
 }
 
@@ -526,7 +545,8 @@
     cursor: pointer
 }
 
-.ipgs-theme-default .ipgs-outline .ipgs-bookmark > .ipgs-link:hover, .ipgs-theme-default .ipgs-outline .ipgs-bookmark > .ipgs-state:hover {
+.ipgs-theme-default .ipgs-outline .ipgs-bookmark > .ipgs-link:hover,
+.ipgs-theme-default .ipgs-outline .ipgs-bookmark > .ipgs-state:hover {
     color: #fff
 }
 
@@ -562,7 +582,8 @@
     display: block
 }
 
-.ipgs-theme-default .ipgs-share, .ipgs-theme-default .ipgs-toolbar {
+.ipgs-theme-default .ipgs-share,
+.ipgs-theme-default .ipgs-toolbar {
     -webkit-transition: all .7s;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -647,7 +668,11 @@
     padding: 10px
 }
 
-.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-email, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-facebook, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-google, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-linkedin, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-twitter {
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-email,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-facebook,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-google,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-linkedin,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-twitter {
     -webkit-transition: all .3s;
     transition: all .3s;
     display: block;
@@ -660,7 +685,11 @@
     cursor: pointer
 }
 
-.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-email:hover, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-facebook:hover, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-google:hover, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-linkedin:hover, .ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-twitter:hover {
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-email:hover,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-facebook:hover,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-google:hover,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-linkedin:hover,
+.ipgs-theme-default .ipgs-share .ipgs-share-dialog .ipgs-share-controls .ipgs-share-icon-twitter:hover {
     opacity: 1
 }
 
@@ -733,19 +762,75 @@
     display: block
 }
 
-.ipgs-theme-default .ipgs-control-download, .ipgs-theme-default .ipgs-control-fullscreen, .ipgs-theme-default .ipgs-control-gotofirst, .ipgs-theme-default .ipgs-control-gotolast, .ipgs-theme-default .ipgs-control-next, .ipgs-theme-default .ipgs-control-optional, .ipgs-theme-default .ipgs-control-outline, .ipgs-theme-default .ipgs-control-pagenumber, .ipgs-theme-default .ipgs-control-prev, .ipgs-theme-default .ipgs-control-share, .ipgs-theme-default .ipgs-control-sound, .ipgs-theme-default .ipgs-control-thumbnails, .ipgs-theme-default .ipgs-control-zoom-default, .ipgs-theme-default .ipgs-control-zoom-in, .ipgs-theme-default .ipgs-control-zoom-out {
+.ipgs-theme-default .ipgs-control-download,
+.ipgs-theme-default .ipgs-control-fullscreen,
+.ipgs-theme-default .ipgs-control-gotofirst,
+.ipgs-theme-default .ipgs-control-gotolast,
+.ipgs-theme-default .ipgs-control-next,
+.ipgs-theme-default .ipgs-control-optional,
+.ipgs-theme-default .ipgs-control-outline,
+.ipgs-theme-default .ipgs-control-pagenumber,
+.ipgs-theme-default .ipgs-control-prev,
+.ipgs-theme-default .ipgs-control-share,
+.ipgs-theme-default .ipgs-control-sound,
+.ipgs-theme-default .ipgs-control-thumbnails,
+.ipgs-theme-default .ipgs-control-zoom-default,
+.ipgs-theme-default .ipgs-control-zoom-in,
+.ipgs-theme-default .ipgs-control-zoom-out {
     position: relative
 }
 
-.ipgs-theme-default .ipgs-control-download.ipgs-hidden, .ipgs-theme-default .ipgs-control-fullscreen.ipgs-hidden, .ipgs-theme-default .ipgs-control-gotofirst.ipgs-hidden, .ipgs-theme-default .ipgs-control-gotolast.ipgs-hidden, .ipgs-theme-default .ipgs-control-next.ipgs-hidden, .ipgs-theme-default .ipgs-control-optional.ipgs-hidden, .ipgs-theme-default .ipgs-control-outline.ipgs-hidden, .ipgs-theme-default .ipgs-control-pagenumber.ipgs-hidden, .ipgs-theme-default .ipgs-control-prev.ipgs-hidden, .ipgs-theme-default .ipgs-control-share.ipgs-hidden, .ipgs-theme-default .ipgs-control-sound.ipgs-hidden, .ipgs-theme-default .ipgs-control-thumbnails.ipgs-hidden, .ipgs-theme-default .ipgs-control-zoom-default.ipgs-hidden, .ipgs-theme-default .ipgs-control-zoom-in.ipgs-hidden, .ipgs-theme-default .ipgs-control-zoom-out.ipgs-hidden {
+.ipgs-theme-default .ipgs-control-download.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-fullscreen.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-gotofirst.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-gotolast.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-next.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-optional.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-outline.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-pagenumber.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-prev.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-share.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-sound.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-thumbnails.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-zoom-default.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-zoom-in.ipgs-hidden,
+.ipgs-theme-default .ipgs-control-zoom-out.ipgs-hidden {
     display: none
 }
 
-.ipgs-theme-default .ipgs-control-download.ipgs-disable, .ipgs-theme-default .ipgs-control-fullscreen.ipgs-disable, .ipgs-theme-default .ipgs-control-gotofirst.ipgs-disable, .ipgs-theme-default .ipgs-control-gotolast.ipgs-disable, .ipgs-theme-default .ipgs-control-next.ipgs-disable, .ipgs-theme-default .ipgs-control-optional.ipgs-disable, .ipgs-theme-default .ipgs-control-outline.ipgs-disable, .ipgs-theme-default .ipgs-control-pagenumber.ipgs-disable, .ipgs-theme-default .ipgs-control-prev.ipgs-disable, .ipgs-theme-default .ipgs-control-share.ipgs-disable, .ipgs-theme-default .ipgs-control-sound.ipgs-disable, .ipgs-theme-default .ipgs-control-thumbnails.ipgs-disable, .ipgs-theme-default .ipgs-control-zoom-default.ipgs-disable, .ipgs-theme-default .ipgs-control-zoom-in.ipgs-disable, .ipgs-theme-default .ipgs-control-zoom-out.ipgs-disable {
+.ipgs-theme-default .ipgs-control-download.ipgs-disable,
+.ipgs-theme-default .ipgs-control-fullscreen.ipgs-disable,
+.ipgs-theme-default .ipgs-control-gotofirst.ipgs-disable,
+.ipgs-theme-default .ipgs-control-gotolast.ipgs-disable,
+.ipgs-theme-default .ipgs-control-next.ipgs-disable,
+.ipgs-theme-default .ipgs-control-optional.ipgs-disable,
+.ipgs-theme-default .ipgs-control-outline.ipgs-disable,
+.ipgs-theme-default .ipgs-control-pagenumber.ipgs-disable,
+.ipgs-theme-default .ipgs-control-prev.ipgs-disable,
+.ipgs-theme-default .ipgs-control-share.ipgs-disable,
+.ipgs-theme-default .ipgs-control-sound.ipgs-disable,
+.ipgs-theme-default .ipgs-control-thumbnails.ipgs-disable,
+.ipgs-theme-default .ipgs-control-zoom-default.ipgs-disable,
+.ipgs-theme-default .ipgs-control-zoom-in.ipgs-disable,
+.ipgs-theme-default .ipgs-control-zoom-out.ipgs-disable {
     opacity: .3
 }
 
-.ipgs-theme-default .ipgs-control-download.ipgs-active, .ipgs-theme-default .ipgs-control-fullscreen.ipgs-active, .ipgs-theme-default .ipgs-control-gotofirst.ipgs-active, .ipgs-theme-default .ipgs-control-gotolast.ipgs-active, .ipgs-theme-default .ipgs-control-next.ipgs-active, .ipgs-theme-default .ipgs-control-optional.ipgs-active, .ipgs-theme-default .ipgs-control-outline.ipgs-active, .ipgs-theme-default .ipgs-control-pagenumber.ipgs-active, .ipgs-theme-default .ipgs-control-prev.ipgs-active, .ipgs-theme-default .ipgs-control-share.ipgs-active, .ipgs-theme-default .ipgs-control-sound.ipgs-active, .ipgs-theme-default .ipgs-control-thumbnails.ipgs-active, .ipgs-theme-default .ipgs-control-zoom-default.ipgs-active, .ipgs-theme-default .ipgs-control-zoom-in.ipgs-active, .ipgs-theme-default .ipgs-control-zoom-out.ipgs-active {
+.ipgs-theme-default .ipgs-control-download.ipgs-active,
+.ipgs-theme-default .ipgs-control-fullscreen.ipgs-active,
+.ipgs-theme-default .ipgs-control-gotofirst.ipgs-active,
+.ipgs-theme-default .ipgs-control-gotolast.ipgs-active,
+.ipgs-theme-default .ipgs-control-next.ipgs-active,
+.ipgs-theme-default .ipgs-control-optional.ipgs-active,
+.ipgs-theme-default .ipgs-control-outline.ipgs-active,
+.ipgs-theme-default .ipgs-control-pagenumber.ipgs-active,
+.ipgs-theme-default .ipgs-control-prev.ipgs-active,
+.ipgs-theme-default .ipgs-control-share.ipgs-active,
+.ipgs-theme-default .ipgs-control-sound.ipgs-active,
+.ipgs-theme-default .ipgs-control-thumbnails.ipgs-active,
+.ipgs-theme-default .ipgs-control-zoom-default.ipgs-active,
+.ipgs-theme-default .ipgs-control-zoom-in.ipgs-active,
+.ipgs-theme-default .ipgs-control-zoom-out.ipgs-active {
     background-color: rgba(0, 0, 0, .1)
 }
 
@@ -814,7 +899,8 @@
     pointer-events: none
 }
 
-.ipgs-theme-default .ipgs-control-optional .ipgs-optional-bar:after, .ipgs-theme-default .ipgs-control-optional .ipgs-optional-bar:before {
+.ipgs-theme-default .ipgs-control-optional .ipgs-optional-bar:after,
+.ipgs-theme-default .ipgs-control-optional .ipgs-optional-bar:before {
     position: absolute;
     content: ' ';
     top: 100%;
@@ -835,7 +921,20 @@
     pointer-events: auto
 }
 
-.ipgs-theme-default .ipgs-icon-download, .ipgs-theme-default .ipgs-icon-fullscreen, .ipgs-theme-default .ipgs-icon-gotofirst, .ipgs-theme-default .ipgs-icon-gotolast, .ipgs-theme-default .ipgs-icon-next, .ipgs-theme-default .ipgs-icon-optional, .ipgs-theme-default .ipgs-icon-outline, .ipgs-theme-default .ipgs-icon-prev, .ipgs-theme-default .ipgs-icon-share, .ipgs-theme-default .ipgs-icon-sound, .ipgs-theme-default .ipgs-icon-thumbnails, .ipgs-theme-default .ipgs-icon-zoom-default, .ipgs-theme-default .ipgs-icon-zoom-in, .ipgs-theme-default .ipgs-icon-zoom-out {
+.ipgs-theme-default .ipgs-icon-download,
+.ipgs-theme-default .ipgs-icon-fullscreen,
+.ipgs-theme-default .ipgs-icon-gotofirst,
+.ipgs-theme-default .ipgs-icon-gotolast,
+.ipgs-theme-default .ipgs-icon-next,
+.ipgs-theme-default .ipgs-icon-optional,
+.ipgs-theme-default .ipgs-icon-outline,
+.ipgs-theme-default .ipgs-icon-prev,
+.ipgs-theme-default .ipgs-icon-share,
+.ipgs-theme-default .ipgs-icon-sound,
+.ipgs-theme-default .ipgs-icon-thumbnails,
+.ipgs-theme-default .ipgs-icon-zoom-default,
+.ipgs-theme-default .ipgs-icon-zoom-in,
+.ipgs-theme-default .ipgs-icon-zoom-out {
     -webkit-transition: all .3s;
     transition: all .3s;
     display: block;
@@ -848,7 +947,20 @@
     cursor: pointer
 }
 
-.ipgs-theme-default .ipgs-icon-download:hover, .ipgs-theme-default .ipgs-icon-fullscreen:hover, .ipgs-theme-default .ipgs-icon-gotofirst:hover, .ipgs-theme-default .ipgs-icon-gotolast:hover, .ipgs-theme-default .ipgs-icon-next:hover, .ipgs-theme-default .ipgs-icon-optional:hover, .ipgs-theme-default .ipgs-icon-outline:hover, .ipgs-theme-default .ipgs-icon-prev:hover, .ipgs-theme-default .ipgs-icon-share:hover, .ipgs-theme-default .ipgs-icon-sound:hover, .ipgs-theme-default .ipgs-icon-thumbnails:hover, .ipgs-theme-default .ipgs-icon-zoom-default:hover, .ipgs-theme-default .ipgs-icon-zoom-in:hover, .ipgs-theme-default .ipgs-icon-zoom-out:hover {
+.ipgs-theme-default .ipgs-icon-download:hover,
+.ipgs-theme-default .ipgs-icon-fullscreen:hover,
+.ipgs-theme-default .ipgs-icon-gotofirst:hover,
+.ipgs-theme-default .ipgs-icon-gotolast:hover,
+.ipgs-theme-default .ipgs-icon-next:hover,
+.ipgs-theme-default .ipgs-icon-optional:hover,
+.ipgs-theme-default .ipgs-icon-outline:hover,
+.ipgs-theme-default .ipgs-icon-prev:hover,
+.ipgs-theme-default .ipgs-icon-share:hover,
+.ipgs-theme-default .ipgs-icon-sound:hover,
+.ipgs-theme-default .ipgs-icon-thumbnails:hover,
+.ipgs-theme-default .ipgs-icon-zoom-default:hover,
+.ipgs-theme-default .ipgs-icon-zoom-in:hover,
+.ipgs-theme-default .ipgs-icon-zoom-out:hover {
     opacity: 1
 }
 
