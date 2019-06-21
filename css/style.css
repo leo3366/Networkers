@@ -1109,10 +1109,12 @@ form label.error {
     width: 100%;
 }
 
-    #navigation{
-        height: 100px !important;
-        background-image: linear-gradient(#fff9d3,#f7f0bb,#f7f0bb,#f7f0bb,#f7f0bb,#e2daa5);
-    }
+#navigation {
+    height: 100px !important;
+    /* background-image: linear-gradient(#fff9d3,#f7f0bb,#f7f0bb,#f7f0bb,#f7f0bb,#e2daa5); */
+    background-color: #390707 !important;
+}
+
 
     .header.header-transparent {
         position: absolute;
