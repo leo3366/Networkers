@@ -1183,7 +1183,7 @@ form label.error {
     position: relative;
     top: 0;
     z-index: 4;
-    background-color: none transparent; /*Mobile "header-transparent" */
+    background-color: transparent; /*Mobile "header-transparent" */
     border-bottom: 0px none;
     box-shadow: none;
     -moz-box-shadow: none;
@@ -4651,7 +4651,7 @@ ul.project-detail-block, .project-detail-block ul {
         }
         
         .colorbackground{
-            background-color: rgba(52,58,64,0.3) !important;
+            background-color: rgb(92, 16, 26) !important;
         }
 
 .nav-menu{

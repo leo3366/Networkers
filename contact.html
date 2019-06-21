@@ -21,6 +21,13 @@
     <link href="css/ionicons.css" rel="stylesheet" type="text/css" />
     <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
     <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        .current > *{
+            color: #fff !important;
+            background-color: deeppink;
+        }
+    </style>
 </head>
 
 <body>
@@ -57,7 +64,7 @@
                                 <li class="nav-menu-item">
                                     <a href="index.html" class="d-flex align-items-center justify-content-center">Inicio</a>
                                 </li>
-                                <li class="nav-menu-item">
+                                <li class="nav-menu-item current">
                                     <a href="#" class="d-flex align-items-center justify-content-center">Contacto</a>
                                 </li>
                             </ul>
@@ -239,5 +246,14 @@
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript" src="js/map.js"></script>
     <script src="js/contact-form.js" type="text/javascript"></script>
+
+    <script>
+        $(document).on('click','.menus > .nav-menu-item', function() {
+            // revistaActual = $(this).attr('data-number');
+            // reload();
+            $('nav-menu-item').removeClass('current');
+            $(this).addClass('current');
+        });
+    </script>
 </body>
 </html>

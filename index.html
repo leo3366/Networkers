@@ -33,6 +33,10 @@
         .portada{
            height: 300px !important;
         }
+        .current > *{
+            color: #fff !important;
+            background-color: deeppink;
+        }
     
     </style>
     
@@ -69,7 +73,7 @@
 
                         <div class="nav-menu ml-auto">
                             <ul class="menus">
-                                <li class="nav-menu-item">
+                                <li class="nav-menu-item current">
                                     <a href="#" class="d-flex align-items-center justify-content-center">Inicio</a>
                                 </li>
                                 <li class="nav-menu-item">
@@ -459,6 +463,12 @@
             });
         }
 
+        $(document).on('click','.menus > .nav-menu-item', function() {
+            // revistaActual = $(this).attr('data-number');
+            // reload();
+            $('nav-menu-item').removeClass('current');
+            $(this).addClass('current');
+        });
 
         $(document).on('click','.item-mask', function() {
             revistaActual = $(this).attr('data-number');
